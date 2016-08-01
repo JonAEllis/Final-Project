@@ -1,0 +1,140 @@
+body {
+padding: 0;
+margin: 0;
+width: 100%;
+overflow: hidden;
+font-family: "Lucida Console", Microsoft;
+background-color: #090009;
+}
+div {
+}
+
+span {
+	display: block;
+	overflow: auto;
+}
+table {
+	margin: 0px auto;  
+}
+
+table, th, td {
+    border: 2px dashed white;
+}
+th, td {
+    padding: 2px;
+	text-align: center;
+}
+
+ul{
+	padding: 0;
+}
+
+.absolute{
+	//position:absolute;
+	//height: 4vh;
+	height:36px;
+	
+}
+
+.main-container {
+    display: block;
+	overflow-x: hide;
+	overflow-y: auto;
+	word-wrap: break-word;
+	position:absolute;
+	top: 52px;
+	bottom: 34px;
+	background-color: #333333;
+	color: #FFFFFF;
+    width: 100%;
+	z-index: -1;
+}
+
+.chatbox{
+	padding: 8px;
+	overflow-y: auto;
+	height: 100%;
+	line-height: 150%;
+}
+
+#collapser{
+	cursor: pointer;
+	position: absolute;
+	top: 2px;
+	right: 0px;
+}
+
+#mainchat{
+padding: 8px;
+display: block;
+float: left;
+width: 100%;
+height: 100%;
+background-color:#0D000D;
+background-image: url("assets/img/seririririr.png");
+background-position: right bottom;
+background-repeat: no-repeat;
+		
+}
+
+#secondchat{
+	padding: 8px;
+	display: none;
+	width: 0%;
+	height: 100%;
+	float: right;
+	background-color:#111111;
+
+}
+
+#commandbar{
+	display: none;
+	height: 0%;
+	background-color:#0FAFFF;
+	color: #000000;
+}
+
+#loading{
+position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FF69B4;
+  font-size: 400%;
+  font-family: "AR Berkley", Courier;
+  font-style: oblique;
+  z-index: 1000;
+}
+
+.sendBox{
+	
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:calc(100% - 0px);
+	height:34px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+//color: white; /*BACKGROUND color for active*/
+background-color: #FF69B4;
+}
+
+.navbar-brand{
+	color: #000000 !important;
+}
+
+.navbar-default {
+    background-color: #FF69B4;
+    border-color: #FF69B4;
+	color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: black; /*Change active text color here*/
+    }
+
+.sendButton{
+	
+}
