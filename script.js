@@ -1,13 +1,13 @@
 
 
 var wsUri = "ws://104.32.64.61:1234"; 
- var output, main; 
- var eotChar = "";
- var welcomed = false;
- var alertSound = new Audio('assets/msg.mp3');
+var output, main; 
+var eotChar = "";
+var welcomed = false;
+var alertSound = new Audio('assets/msg.mp3');
 var messageCount = 0;
  
- function user(id, name, color){
+function user(id, name, color){
 	 this.id = id;
 	 this.name = name;
 	 this.color = color;
